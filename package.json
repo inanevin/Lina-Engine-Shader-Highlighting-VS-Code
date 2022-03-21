@@ -1,0 +1,25 @@
+{
+    "name": "lina-engine-shader-highlighting",
+    "displayName": "Lina Engine Shader Highlighting",
+    "description": "Provides suppport for highlighting Lina Engine's GLSL shader files.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "linaglsl",
+            "aliases": ["Lina GLSL", "linaglsl"],
+            "extensions": [".linaglsl",".linaglh"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "linaglsl",
+            "scopeName": "source.linaglsl",
+            "path": "./syntaxes/linaglsl.tmLanguage.json"
+        }]
+    }
+}
