@@ -288,11 +288,11 @@
 			"name": "storage.type.linaglsl"
 		},
 		"control_keywords": {
-			"match": "\\b(break|case|continue|default|discard|do|else|for|if|return|swich|while)\\b",
+			"match": "\\b(break|case|continue|default|discard|do|else|for|if|return|swich|while|LINA_PROJ|LINA_VIEW|LINA_LIGHTSPACE|LINA_VP|LINA_CAMPOS|LINA_CAMNEAR|LINA_CAMFAR|LINA_AMBIENT|LINA_PLIGHT_COUNT|LINA_SLIGHT_COUNT|LINA_VISUALIZEDEPTH|LINA_SCREENSIZE|LINA_MOUSEPOS|LINA_DT|LINA_ET)\\b",
 			"name": "keyword.control.linaglsl"
 		},
 		"reserved_keyword_for_future_use": {
-			"match": "\\b(?:common|partition|active|asm|class|union|enum|typedef|template|this|resource|goto|inline|noinline|public|static|extern|external|interface|long|short|half|fixed|unsigned|superp|input|output|hvec2|hvec3|hvec4|fvec2|fvec3|fvec4|sampler3DRect|filter|sizeof|cast|namespace|using|LINA_PROJ|LINA_VIEW|LINA_LIGHTSPACE|LINA_VP|LINA_CAMPOS|LINA_CAMNEAR|LINA_CAMFAR|LINA_AMBIENT|LINA_PLIGHT_COUNT|LINA_SLIGHT_COUNT|LINA_VISUALIZEDEPTH|LINA_SCREENSIZE|LINA_MOUSEPOS|LINA_DT|LINA_ET)\\b",
+			"match": "\\b(?:common|partition|active|asm|class|union|enum|typedef|template|this|resource|goto|inline|noinline|public|static|extern|external|interface|long|short|half|fixed|unsigned|superp|input|output|hvec2|hvec3|hvec4|fvec2|fvec3|fvec4|sampler3DRect|filter|sizeof|cast|namespace|using)\\b",
 			"name": "invalid.illegal.reserved-keyword.linaglsl"
 		},
 		"keywords": {
