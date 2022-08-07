@@ -288,7 +288,7 @@
 			"name": "storage.type.linashader"
 		},
 		"control_keywords": {
-			"match": "\\b(break|case|continue|default|discard|do|else|for|if|return|swich|while|LINA_PROJ|LINA_VIEW|LINA_LIGHTSPACE|LINA_VP|LINA_CAMPOS|LINA_CAMNEAR|LINA_CAMFAR|LINA_AMBIENT|LINA_PLIGHT_COUNT|LINA_SLIGHT_COUNT|LINA_VISUALIZEDEPTH|LINA_SCREENSIZE|LINA_MOUSEPOS|LINA_DT|LINA_ET)\\b",
+			"match": "\\b(break|case|continue|default|discard|do|else|for|if|return|swich|while|LINA_VS|LINA_FRAG|LINA_GEO|LINA_END|LINA_PROJ|LINA_VIEW|LINA_LIGHTSPACE|LINA_VP|LINA_CAMPOS|LINA_CAMNEAR|LINA_CAMFAR|LINA_AMBIENT|LINA_PLIGHT_COUNT|LINA_SLIGHT_COUNT|LINA_VISUALIZEDEPTH|LINA_SCREENSIZE|LINA_MOUSEPOS|LINA_DT|LINA_ET)\\b",
 			"name": "keyword.control.linashader"
 		},
 		"reserved_keyword_for_future_use": {
