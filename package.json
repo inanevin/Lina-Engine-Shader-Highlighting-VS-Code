@@ -2,7 +2,7 @@
     "name": "lina-engine-shader-highlighting",
     "displayName": "Lina Engine Shader Highlighting",
     "description": "Provides suppport for highlighting Lina Engine's GLSL shader files.",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "icon":"images/linalogofull.png",
     "publisher": "inanevin",
     "engines": {
@@ -17,7 +17,7 @@
     ],
     "contributes": {
         "languages": [{
-            "id": "linaglsl",
+            "id": "linashader",
             "aliases": ["Lina GLSL", "linashader"],
             "extensions": [".linashader"],
             "configuration": "./language-configuration.json"
