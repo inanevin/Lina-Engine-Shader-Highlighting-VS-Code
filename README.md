@@ -8,6 +8,10 @@ Shader syntax highlighting, Lina Engine shader constant keywords support.
 
 ## Release Notes
 
+### 1.0.3
+
+Keyword update
+
 ### 1.0.2
 
 Macro update for LINA_VS, LINA_FRAG, LINA_GO, LINA_END
