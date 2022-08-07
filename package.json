@@ -2,30 +2,42 @@
     "name": "lina-engine-shader-highlighting",
     "displayName": "Lina Engine Shader Highlighting",
     "description": "Provides suppport for highlighting Lina Engine's GLSL shader files.",
-    "version": "0.0.8",
-    "icon":"images/linalogofull.png",
+    "version": "1.0.1",
+    "icon": "images/linalogofull.png",
     "publisher": "inanevin",
     "engines": {
         "vscode": "^1.65.0"
     },
-    "repository":{
-        "type":"git",
-        "url":"https://github.com/inanevin/Lina-Engine-Shader-Highlighting-VS-Code"
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/inanevin/Lina-Engine-Shader-Highlighting-VS-Code"
     },
     "categories": [
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "linashader",
-            "aliases": ["Lina GLSL", "linashader"],
-            "extensions": [".linashader"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "linashader",
-            "scopeName": "source.linashader",
-            "path": "./syntaxes/linashader.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "linashader",
+                "aliases": [
+                    "Lina GLSL",
+                    "linashader"
+                ],
+                "extensions": [
+                    ".linashader"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "linashader",
+                "scopeName": "source.linashader",
+                "path": "./syntaxes/linashader.tmLanguage.json"
+            }
+        ]
+    },
+    "dependencies": {
+        "vsce": "^2.10.0"
     }
 }
