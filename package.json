@@ -18,14 +18,14 @@
     "contributes": {
         "languages": [{
             "id": "linaglsl",
-            "aliases": ["Lina GLSL", "linaglsl"],
-            "extensions": [".linaglsl",".linaglh"],
+            "aliases": ["Lina GLSL", "linashader"],
+            "extensions": [".linashader"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
-            "language": "linaglsl",
-            "scopeName": "source.linaglsl",
-            "path": "./syntaxes/linaglsl.tmLanguage.json"
+            "language": "linashader",
+            "scopeName": "source.linashader",
+            "path": "./syntaxes/linashader.tmLanguage.json"
         }]
     }
 }
