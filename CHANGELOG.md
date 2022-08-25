@@ -4,6 +4,11 @@ All notable changes to the "lina-engine-shader-highlighting" extension will be d
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+
+### 1.0.4
+
+Keyword update
+
 ### 1.0.3
 
 Keyword update
