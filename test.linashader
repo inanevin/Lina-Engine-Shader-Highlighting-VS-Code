@@ -46,7 +46,7 @@ layout(set = 0, binding = 0) uniform CameraBuffer{
 //push constants block
 layout( push_constant ) uniform constants
 {
-	vec4 data;
+	vec4 data; #LINA_LIMIT
 	mat4 renderMatrix;
 } PushConstants;
 
@@ -57,6 +57,10 @@ void main()
 }
 
 #LINA_END
+
+#LINA_PASS_SHADOWS
+#LINA_PASS_TRANSPARENT
+#LINA_PASS_OPAQUE
 
 #LINA_FS
 
