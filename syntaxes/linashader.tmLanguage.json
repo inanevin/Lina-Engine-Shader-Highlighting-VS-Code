@@ -180,25 +180,36 @@
 				}
 			}
 		},
-		"preprocessor_linashadervariant": {
-			"match": "^\\s*(#\\s*lina_shader_variant)(\\s+[^\\n]+)?(?=\\n)",
+		"preprocessor_linadefinevariant": {
+			"match": "^\\s*(#\\s*lina_define_variant)(\\s+[^\\n]+)?(?=\\n)",
 			"captures": {
 				"1": {
 					"name": "keyword.control.preprocessor.linashader"
 				},
 				"2": {
-					"name": "string.unquoted.linashadervariant.linashader"
+					"name": "string.unquoted.linadefinevariant.linashader"
 				}
 			}
 		},
-		"preprocessor_linapass": {
-			"match": "^\\s*(#\\s*lina_pass)(\\s+[^\\n]+)?(?=\\n)",
+		"preprocessor_linarenderpass": {
+			"match": "^\\s*(#\\s*lina_renderpass)(\\s+[^\\n]+)?(?=\\n)",
 			"captures": {
 				"1": {
 					"name": "keyword.control.preprocessor.linashader"
 				},
 				"2": {
-					"name": "string.unquoted.linapass.linashader"
+					"name": "string.unquoted.linarenderpass.linashader"
+				}
+			}
+		},
+		"preprocessor_linatarget": {
+			"match": "^\\s*(#\\s*lina_target)(\\s+[^\\n]+)?(?=\\n)",
+			"captures": {
+				"1": {
+					"name": "keyword.control.preprocessor.linashader"
+				},
+				"2": {
+					"name": "string.unquoted.linatarget.linashader"
 				}
 			}
 		},
@@ -382,10 +393,13 @@
 					"include": "#preprocessor_linaend"
 				},
 				{
-					"include": "#preprocessor_linashadervariant"
+					"include": "#preprocessor_linadefinevariant"
 				},
 				{
-					"include": "#preprocessor_linapass"
+					"include": "#preprocessor_linarenderpass"
+				},
+				{
+					"include": "#preprocessor_linatarget"
 				},
 				{
 					"include": "#preprocessor_linadepth"
