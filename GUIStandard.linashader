@@ -26,21 +26,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-#lina_define_variant : default
-#lina_target : rendertarget
-#lina_renderpass : basic
-#lina_cull : none
-#lina_front : cw
-#lina_depth : disable
-#lina_end
-
-#lina_define_variant : final
-#lina_renderpass : basic
-#lina_target : swapchain
-#lina_cull : none
-#lina_front : cw
-#lina_depth : disable
-#lina_end
 
 #lina_vs
 

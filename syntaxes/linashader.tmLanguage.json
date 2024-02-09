@@ -180,94 +180,6 @@
 				}
 			}
 		},
-		"preprocessor_linadefinevariant": {
-			"match": "^\\s*(#\\s*lina_define_variant)(\\s+[^\\n]+)?(?=\\n)",
-			"captures": {
-				"1": {
-					"name": "keyword.control.preprocessor.linashader"
-				},
-				"2": {
-					"name": "string.unquoted.linadefinevariant.linashader"
-				}
-			}
-		},
-		"preprocessor_linarenderpass": {
-			"match": "^\\s*(#\\s*lina_renderpass)(\\s+[^\\n]+)?(?=\\n)",
-			"captures": {
-				"1": {
-					"name": "keyword.control.preprocessor.linashader"
-				},
-				"2": {
-					"name": "string.unquoted.linarenderpass.linashader"
-				}
-			}
-		},
-		"preprocessor_linatarget": {
-			"match": "^\\s*(#\\s*lina_target)(\\s+[^\\n]+)?(?=\\n)",
-			"captures": {
-				"1": {
-					"name": "keyword.control.preprocessor.linashader"
-				},
-				"2": {
-					"name": "string.unquoted.linatarget.linashader"
-				}
-			}
-		},
-		"preprocessor_linadepth": {
-			"match": "^\\s*(#\\s*lina_depth)(\\s+[^\\n]+)?(?=\\n)",
-			"captures": {
-				"1": {
-					"name": "keyword.control.preprocessor.linashader"
-				},
-				"2": {
-					"name": "string.unquoted.linadepth.linashader"
-				}
-			}
-		},
-		"preprocessor_linablend": {
-			"match": "^\\s*(#\\s*lina_blend)(\\s+[^\\n]+)?(?=\\n)",
-			"captures": {
-				"1": {
-					"name": "keyword.control.preprocessor.linashader"
-				},
-				"2": {
-					"name": "string.unquoted.linablend.linashader"
-				}
-			}
-		},
-		"preprocessor_linaname": {
-			"match": "^\\s*(#\\s*lina_name)(\\s+[^\\n]+)?(?=\\n)",
-			"captures": {
-				"1": {
-					"name": "keyword.control.preprocessor.linashader"
-				},
-				"2": {
-					"name": "string.unquoted.linaname.linashader"
-				}
-			}
-		},
-		"preprocessor_linacull": {
-			"match": "^\\s*(#\\s*lina_cull)(\\s+[^\\n]+)?(?=\\n)",
-			"captures": {
-				"1": {
-					"name": "keyword.control.preprocessor.linashader"
-				},
-				"2": {
-					"name": "string.unquoted.linacull.linashader"
-				}
-			}
-		},
-		"preprocessor_linafront": {
-			"match": "^\\s*(#\\s*lina_front)(\\s+[^\\n]+)?(?=\\n)",
-			"captures": {
-				"1": {
-					"name": "keyword.control.preprocessor.linashader"
-				},
-				"2": {
-					"name": "string.unquoted.linafront.linashader"
-				}
-			}
-		},
 		"preprocessor_error": {
 			"match": "^\\s*(#\\s*error)(\\s+[^\\n]+)?(?=\\n)",
 			"captures": {
@@ -391,30 +303,6 @@
 				},
 				{
 					"include": "#preprocessor_linaend"
-				},
-				{
-					"include": "#preprocessor_linadefinevariant"
-				},
-				{
-					"include": "#preprocessor_linarenderpass"
-				},
-				{
-					"include": "#preprocessor_linatarget"
-				},
-				{
-					"include": "#preprocessor_linadepth"
-				},
-				{
-					"include": "#preprocessor_linablend"
-				},
-				{
-					"include": "#preprocessor_linaname"
-				},
-				{
-					"include": "#preprocessor_linacull"
-				},
-				{
-					"include": "#preprocessor_linafront"
 				},
 				{
 					"include": "#preprocessor_error"
